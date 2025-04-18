@@ -25,14 +25,14 @@ const menu = ref([
 ])
 </script>
 <template>
-    <header class="bg-zinc-300 py-4 flex">
+    <header class="bg-neutral-100 py-4 flex">
         <div class="flex items-center">
-            <img src="../assets/media/logo.png" alt="">
+            <img class="mx-1" src="../assets/media/logo.png" alt="логотип электромонтажа">
             <h1 class="ml-1 text-2xl uppercase">Электромонтаж</h1>
         </div>
-        <nav class=" flex items-center grow">
-            <ul class="flex grow">
-                <li v-for="(link, index) in menu" :key="index"><a :href="link.link">{{ link.title }}</a></li>
+        <nav class="pl-4 flex items-center">
+            <ul class="flex">
+                <li class="px-6" v-for="(link, index) in menu" :key="index"><a :href="link.link">{{ link.title }}</a></li>
             </ul>
         </nav>
     </header>
