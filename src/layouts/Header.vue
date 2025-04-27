@@ -25,15 +25,23 @@ const menu = ref([
 ])
 </script>
 <template>
-    <header class="flex bg-[#18212b] text-white " >
-        <div class="flex items-center">
+    <header class="flex bg-[#18212b] text-white">
+        <div class="flex m-auto">
             <img src="../assets/media/logo.png" alt="логотип электромонтажа">
-            <h1 class="ml-1 text-2xl uppercase">Электромонтаж</h1>
         </div>
-        <nav class="pl-4 flex items-center">
-            <ul class="flex">
-                <li class="px-6" v-for="(link, index) in menu" :key="index"><a :href="link.link">{{ link.title }}</a></li>
+        <nav class="flex grow md:items-center">
+            <ul class="hidden md:flex lg:flex-row">
+                <li class="px-6" v-for="(link, index) in menu" :key="index"><a :href="link.link">{{ link.title }}</a>
+                </li>
             </ul>
+            <button class="md:hidden ml-auto mr-3">
+                <svg class=" hover:stroke-2" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" stroke="white">
+                    <path d="M6 9.99927L26 9.99978" />
+                    <path d="M6 15.9998L26 16.0003" />
+                    <path d="M6 22.0002L26 22.0008" />
+                </svg>
+            </button>
         </nav>
     </header>
 </template>
