@@ -25,9 +25,9 @@ const menu = ref([
 ])
 </script>
 <template>
-    <header class="bg-neutral-100 py-4 flex">
+    <header class="flex bg-[#18212b] text-white " >
         <div class="flex items-center">
-            <img class="mx-1" src="../assets/media/logo.png" alt="логотип электромонтажа">
+            <img src="../assets/media/logo.png" alt="логотип электромонтажа">
             <h1 class="ml-1 text-2xl uppercase">Электромонтаж</h1>
         </div>
         <nav class="pl-4 flex items-center">
