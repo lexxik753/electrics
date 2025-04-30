@@ -30,7 +30,7 @@ const showMenu = ref(false);
 <template>
     <header class="flex bg-[#18212b] text-white">
         <nav class="flex grow items-center md:flex md:grow md:items-center">
-            <div class="grow md:grow-0">
+            <div>
                 <img class="m-auto" src="../assets/media/logo.png" alt="логотип электромонтажа">
             </div>
             <ul class="hidden md:flex lg:flex-row">
@@ -46,7 +46,8 @@ const showMenu = ref(false);
                 <path d="M6 22.0002L26 22.0008" />
             </svg>
         </button>
-        <div class="bg-[#18212b] md:hidden h-[100vh] w-full absolute top-0" :class="showMenu == true ? 'block' : 'hidden'">
+        <div class="bg-[#18212b] md:hidden h-[100vh] w-full absolute top-0"
+            :class="showMenu == true ? 'block' : 'hidden'">
             <div class="flex justify-end mt-4 mr-5">
                 <button @click="showMenu = false">X</button>
             </div>
@@ -56,4 +57,13 @@ const showMenu = ref(false);
             </ul>
         </div>
     </header>
+    <div class="bg-cover bg-[url('src/assets/media/header.png')">
+        <h2 class="py-4 text-xl md:text-2xl text-center">ЭЛЕКТРОМОНТАЖ</h2>
+        <h1 class="mb-4 text-2xl md:text-[52px] font-bold text-center">Электричество для вашего дома</h1>
+        <section class="m-auto w-1/2 text-center">
+            <p class="md:text-lg md:leading-loose">Мы предлагаем комплексные решения в области электротехники и сантехники,
+                учитывая ваши индивидуальные потребности. От начальной установки до регулярного обслуживания, мы
+                гарантируем профессионализм и качественную работу, которой вы можете доверять.</p>
+        </section>
+    </div>
 </template>
