@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'FiraSans';
+        font-style: normal;
+        font-weight: 400;
+        src: url(/src/assets/fonts/FiraSans-Regular.ttf) format('truetype');
+    }
+}
+
+body {
+    font-family: 'FiraSans';
+}
