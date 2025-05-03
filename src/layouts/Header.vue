@@ -69,7 +69,7 @@ const showMenu = ref(false);
                     учитывая ваши индивидуальные потребности. От начальной установки до регулярного обслуживания, мы
                     гарантируем профессионализм и качественную работу, которой вы можете доверять.</p>
                 <a href="#"
-                    class="bg-[#FF6B35] text-white mt-4 py-3 px-8 rounded-lg hover:bg-[#FF7F4D] transition-colors shadow-md hover:shadow-lg inline-flex items-center gap-2">
+                    class="bg-[#FF6B35] text-white my-4 py-3 px-8 rounded-lg hover:bg-[#FF7F4D] transition-colors shadow-md hover:shadow-lg inline-flex items-center gap-2">
                     <svg 
                         class="w-5 h-5" 
                         fill="currentColor" 
