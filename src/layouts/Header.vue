@@ -6,17 +6,18 @@ const menu = ref([
         title: 'О компании',
         link: '#',
     },
-    {
-        title: 'Проекты',
-        link: '#',
-    },
+    // Пока что оставить закомменчиными до уточнения ТЗ
+    // {
+    //     title: 'Проекты',
+    //     link: '#',
+    // },
     {
         title: 'Услуги',
         link: '#',
     },
     {
         title: 'Отзывы',
-        link: '#',
+        link: 'https://www.avito.ru/moskva/predlozheniya_uslug/uslugi_elektrika_montazh_remont_proektirovanie_3718585193?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing#open-reviews-list',
     },
     {
         title: 'Контакты',
