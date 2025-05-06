@@ -60,16 +60,15 @@ const showMenu = ref(false);
     <div
         class="min-h-screen bg-[url('./assets/media/bg-header.png')] bg-cover text-white relative before:absolute before:inset-0 before:bg-linear-to-r before:from-black/70 before:to-transparent">
         <div class="relative z-10 text-shadow-lg/50">
-            <h2 class="py-4 text-xl md:text-2xl text-center">ЭЛЕКТРОМОНТАЖ</h2>
-            <h1 class="mb-4 text-2xl md:text-[52px] font-bold text-center">Электричество для вашего дома</h1>
+            <h2 class="py-4 text-xl lg:text-2xl xl:text-3xl text-center">ЭЛЕКТРОМОНТАЖ</h2>
+            <h1 class="mb-4 text-xl lg:text-2xl xl:text-3xl font-bold text-center">Электричество для вашего дома</h1>
             <section class="m-auto md:w-1/2 text-center">
-                <p class="text-sm md:text-lg md:leading-loose">Мы предлагаем комплексные решения в области
-                    электротехники и
-                    сантехники,
+                <p class="text-sm md:text-xl lg:text-2xl lg:leading-loose">Мы предлагаем комплексные решения в области
+                    электротехники
                     учитывая ваши индивидуальные потребности. От начальной установки до регулярного обслуживания, мы
                     гарантируем профессионализм и качественную работу, которой вы можете доверять.</p>
                 <a href="#"
-                    class="bg-[#FF6B35] text-white my-4 py-3 px-8 rounded-lg hover:bg-[#FF7F4D] transition-colors shadow-md hover:shadow-lg inline-flex items-center gap-2">
+                    class="bg-[#FF6B35] hover:bg-[#FF7F4D] text-xl lg:text-2xl text-white my-4 py-3 px-8 rounded-lg transition-colors shadow-md hover:shadow-lg inline-flex items-center gap-2">
                     <svg 
                         class="w-5 h-5" 
                         fill="currentColor" 
