@@ -153,7 +153,7 @@ const servicesDetails = [
             <p class="text-base lg:text-lg xl:text-2xl">Наша команда занимается электромонтажом и предлагает техническое
                 обслуживание, ремонт и консультации для стабильной работы систем</p>
         </div>
-        <div class="grid grid-cols-3 divide-x-2">
+        <div class="grid lg:grid-cols-3 divide-x-2">
             <ServicesDetails :details="servicesDetails" />
         </div>
     </section>
