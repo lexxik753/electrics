@@ -147,13 +147,13 @@ const servicesDetails = [
 </script>
 
 <template>
-    <section class="container mt-15 mx-auto px-4">
-        <div class="text-center">
+    <section class="container mt-15 mx-auto md:px-4">
+        <div class="text-center pb-6">
             <h2 class="mb-2 text-xl md:text-2xl lg:text-4xl font-bold">Услуги, которые работают</h2>
             <p class="text-base lg:text-lg xl:text-2xl">Наша команда занимается электромонтажом и предлагает техническое
                 обслуживание, ремонт и консультации для стабильной работы систем</p>
         </div>
-        <div class="grid lg:grid-cols-3 divide-x-2">
+        <div class="grid grid-cols-1 lg:grid-cols-3 items-stretch gap-2 divide-y lg:divide-y-0 lg:divide-x-2">
             <ServicesDetails :details="servicesDetails" />
         </div>
     </section>

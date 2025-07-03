@@ -10,9 +10,14 @@ const props = defineProps({
 })
 </script>
 <template>
-    <div v-for="(detail, index) in props.details" :key="index" class="mt-4 p-2 flex flex-wrap justify-between items-baseline">
-        <p class="text-sm md:text-base font-bold mb-4 pb-1 border-b-2 border-orange-500 inline-block">{{ detail.title }}</p>
-        <p>{{ detail.price }}</p>
-        <p class="w-full text-xs">{{ detail.clarification }}</p>
+    <div 
+        v-for="(detail, index) in props.details" 
+        :key="index"
+        class="h-full px-2 flex flex-col md:flex-wrap justify-between items-baseline">
+        <div class="flex-grow">
+            <p class="text-xs md:text-base font-bold mb-2 border-b-2 border-orange-500">{{ detail.title }}</p>
+            <p class="text-xs md:text-base">{{ detail.price }}</p>
+            <p class="w-full pt-1 text-xs text-gray-700">{{ detail.clarification }}</p>
+        </div>
     </div>
 </template>

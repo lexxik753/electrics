@@ -61,10 +61,10 @@ const showMenu = ref(false);
     <div
         class="min-h-screen bg-[url('./assets/media/bg-header.png')] bg-cover text-white relative before:absolute before:inset-0 before:bg-linear-to-r before:from-black/70 before:to-transparent">
         <div class="relative z-10 text-shadow-lg/50">
-            <h2 class="py-4 text-xl lg:text-2xl xl:text-3xl text-center">ЭЛЕКТРОМОНТАЖ</h2>
-            <h1 class="mb-4 text-xl lg:text-2xl xl:text-3xl font-bold text-center">Электричество для вашего дома</h1>
+            <h2 class="py-4 text-2xl xl:text-3xl text-center">ЭЛЕКТРОМОНТАЖ</h2>
+            <h1 class="mb-4 text-2xl xl:text-3xl font-bold text-center">Электричество для вашего дома</h1>
             <section class="m-auto md:w-1/2 text-center">
-                <p class="text-sm md:text-xl lg:text-2xl lg:leading-loose">Мы предлагаем комплексные решения в области
+                <p class="text-xl lg:text-2xl lg:leading-loose">Мы предлагаем комплексные решения в области
                     электротехники
                     учитывая ваши индивидуальные потребности. От начальной установки до регулярного обслуживания, мы
                     гарантируем профессионализм и качественную работу, которой вы можете доверять.</p>
