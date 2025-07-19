@@ -29,7 +29,7 @@ const showMenu = ref(false);
 
 </script>
 <template>
-    <header class="flex bg-[#18212b] text-white">
+    <header class="flex bg-[#1a1916] text-white">
         <nav class="flex grow items-center md:flex md:grow md:items-center">
             <div class="w-32 md:w-40">
                 <img class="w-full h-auto object-contain m-auto" src="../assets/media/logo.png"
